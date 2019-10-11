@@ -14,11 +14,11 @@ function teenager(age) {
 
 function ageChecker(age) {
   switch(age) {
-    case (age <=12):
+    case age <=12:
       return "You are a kid";
-    case (age >= 20):
+    case age >= 20:
       return "You are a grownup";
-    case (age > 12 && < 20):
+    case age > 12 && < 20:
       return "You are a teenager!";
   }
 }
