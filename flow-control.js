@@ -18,10 +18,8 @@ function ageChecker(age) {
       return "You are a kid";
     case (age >= 20):
       return "You are a grownup";
-      break;
-    case age > 12 && < 20:
+    case (age > 12 && < 20):
       return "You are a teenager!";
-      break;
   }
 }
 
